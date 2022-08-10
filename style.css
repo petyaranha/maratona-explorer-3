@@ -53,15 +53,18 @@
   section {
     margin-bottom: 24px;
   }
-  
+
   section h2 {
-    background-color: #FED7AA;
-    padding: 8px 16px;
+    border: .8em darkviolet;
+    border-style: dotted double;
+    margin: 1em 0;
+    padding: 1.4em;
+    background: linear-gradient(60deg, red, yellow, red, yellow, red);
+    font: 900 1.2em sans-serif;
+    text-decoration: underline;
+    background-clip: border-box;
     text-align: center;
-  
-    margin-bottom: 24px;
-    font-size: 18px;
-  }
+    }
   
   /* LISTA */
   ul li {
